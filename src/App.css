@@ -5,3 +5,23 @@
 .prueba {
   background-color: grey;
 }
+
+.espacio {
+  height: 500px;
+  border: solid black 2px;
+}
+
+.icons {
+  font-size: 50px;
+}
+
+.foto {
+  height: 20%;
+  width: 20%;
+  margin: 2px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
