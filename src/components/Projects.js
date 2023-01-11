@@ -6,7 +6,10 @@ import {
   ProjectInfoReverse,
   Screenshot,
   Info,
-  Text,
+  TitleProj,
+  List,
+  ListItem,
+  Description,
 } from "./styledComponents";
 
 const Projects = () => {
@@ -22,14 +25,18 @@ const Projects = () => {
             className="foto"
           />
           <Info>
-            <Text>Este es mi proyecto en React JS</Text>
-            <ul>
-              <li>React Js</li>
-              <li>JavaScript</li>
-              <li>CSS</li>
-              <li>Bootstrap</li>
-              <li>StyledComponents</li>
-            </ul>
+            <TitleProj>Este es mi proyecto en React JS</TitleProj>
+            <Description>
+              Este proyecto consiste en un simulador de e-commerce de software
+              digital.
+            </Description>
+            <List>
+              <ListItem>React Js</ListItem>
+              <ListItem>JavaScript</ListItem>
+              <ListItem>CSS</ListItem>
+              <ListItem>Bootstrap</ListItem>
+              <ListItem>StyledComponents</ListItem>
+            </List>
           </Info>
         </ProjectInfo>
 
@@ -41,14 +48,19 @@ const Projects = () => {
           />
 
           <Info>
-            <Text>Este es mi proyecto para JavaScript</Text>
-            <ul>
-              <li>JavaScript</li>
-              <li>HTML5</li>
-              <li>CSS</li>
-              <li>Sass</li>
-              <li>Bootstrap</li>
-            </ul>
+            <TitleProj>Este es mi proyecto para JavaScript</TitleProj>
+            <Description>
+              Este proyecto consiste en un simulador de reserva de habitaciones
+              donde se puede elegir entre 3 tipos de habitaciones todos con un
+              costo diferente
+            </Description>
+            <List>
+              <ListItem>JavaScript</ListItem>
+              <ListItem>HTML5</ListItem>
+              <ListItem>CSS</ListItem>
+              <ListItem>Sass</ListItem>
+              <ListItem>Bootstrap</ListItem>
+            </List>
           </Info>
         </ProjectInfoReverse>
 
@@ -59,13 +71,17 @@ const Projects = () => {
             className="foto"
           />
           <Info>
-            <Text>Este es mi proyecto en Desarrollo Web</Text>
-            <ul>
-              <li>HTML5</li>
-              <li>CSS</li>
-              <li>Sass</li>
-              <li>Bootstrap</li>
-            </ul>
+            <TitleProj>Este es mi proyecto en Desarrollo Web</TitleProj>
+            <Description>
+              Este proyecto consiste en un sitio web dedicado a la venta y
+              diseño de productos impresos en tecnología 3D
+            </Description>
+            <List>
+              <ListItem>HTML5</ListItem>
+              <ListItem>CSS</ListItem>
+              <ListItem>Sass</ListItem>
+              <ListItem>Bootstrap</ListItem>
+            </List>
           </Info>
         </ProjectInfo>
       </ContainerProjects>
