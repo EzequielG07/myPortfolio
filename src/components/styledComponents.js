@@ -49,3 +49,35 @@ export const Subtitle = styled.h2`
     text-align: justify;
   }
 `;
+
+//Projects-----------------------------------------------
+export const Icons = styled.img`
+  height: 32px;
+  width: 32px;
+  margin-left: 10px;
+`;
+
+export const ContainerProjects = styled(Container)`
+  display: flex;
+  flex-direction: column;
+`;
+
+export const ProjectInfo = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+`;
+
+export const ProjectInfoReverse = styled(ProjectInfo)`
+  flex-direction: row-reverse;
+`;
+
+export const Screenshot = styled.img`
+  height: 50%;
+  width: 50%;
+`;
+
+export const Info = styled.div`
+  border: solid white 1px;
+  width: 50%;
+`;
