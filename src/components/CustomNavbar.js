@@ -5,19 +5,26 @@ import "../App.css";
 
 const CustomNavbar = () => {
   return (
-    <Navbar className="prueba" expand="lg">
+    <Navbar className="colorNav" expand="lg" sticky="top">
       <Container>
-        <Navbar.Brand href="#home">EzequielG07</Navbar.Brand>
+        <Navbar.Brand className="initials" href="#home">
+          EG
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse
-          className="d-flex justify-content-end"
-          id="basic-navbar-nav"
-        >
-          <Nav>
-            <Nav className="mx-2">Sobre mi</Nav>
-            <Nav className="mx-2">Experiencia</Nav>
-            <Nav className="mx-2">Proyectos</Nav>
-            <Nav className="mx-2">Contacto</Nav>
+        <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
+          <Nav className="itemsNav">
+            <Nav.Link href="#aboutMe" className="mx-2">
+              Sobre mi
+            </Nav.Link>
+            <Nav.Link href="#experience" className="mx-2">
+              Experiencia
+            </Nav.Link>
+            <Nav.Link href="#projects" className="mx-2">
+              Proyectos
+            </Nav.Link>
+            <Nav.Link href="#contactMe" className="mx-2">
+              Contacto
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

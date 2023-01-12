@@ -1,5 +1,6 @@
 import "./App.css";
 import CustomNavbar from "./components/CustomNavbar";
+import Greeting from "./components/Greeting";
 import AboutMe from "./components/AboutMe";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
@@ -10,7 +11,8 @@ function App() {
   return (
     <>
       <CustomNavbar />
-      <div className="App">HOLA ESTE SERA MI PORTFOLIO😎</div>
+      <Greeting />
+      <hr />
       <AboutMe />
       <hr />
       <Experience />

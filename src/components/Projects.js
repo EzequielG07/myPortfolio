@@ -15,7 +15,7 @@ import {
 const Projects = () => {
   return (
     <>
-      <ContainerProjects>
+      <ContainerProjects id="projects">
         <Subtitle>My projects i´ve built</Subtitle>
 
         <ProjectInfo>

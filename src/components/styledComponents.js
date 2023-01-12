@@ -4,12 +4,11 @@ export const Container = styled.div`
   margin: 0 auto;
   width: 1200px;
   padding: 50px 100px;
-  /* background-color: #080808; */
-  /* background-color: #1c2833; */
   background-color: #17202a;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  border: solid pink 2px;
 `;
 
 export const ContainerInfo = styled.div`
@@ -126,4 +125,30 @@ export const Description = styled.p`
 
 export const TitleProj = styled.h3`
   color: #16a085;
+`;
+
+//Contact Me-------------------------------------------
+export const ButtonContact = styled.button`
+  background-color: #17202a;
+  color: #16a085;
+  border: 2px solid #16a085;
+  border-radius: 5px;
+  &:hover {
+    transition: 0.5s;
+    background-color: #16a085;
+    color: #17202a;
+  }
+`;
+
+//Greeting --------------------------------------------
+export const Greetings = styled.p`
+  color: #16a085;
+`;
+
+export const MyName = styled.h1`
+  color: white;
+`;
+
+export const MyDegree = styled.h2`
+  color: grey;
 `;

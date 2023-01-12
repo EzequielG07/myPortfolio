@@ -10,7 +10,7 @@ import {
 const AboutMe = () => {
   return (
     <>
-      <Container>
+      <Container id="aboutMe">
         {/* <p>Hi, my name is</p>
         <h2>Matias Guaymas</h2>
         <h3>Front End Developer</h3> */}
