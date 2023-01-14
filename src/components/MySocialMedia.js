@@ -1,5 +1,4 @@
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import "../App.css";
 import { ContainerMedia } from "./styledComponents";
 
@@ -7,8 +6,30 @@ const MySocialMedia = () => {
   return (
     <>
       <ContainerMedia>
-        <FaGithub className="icons" />
-        <FaLinkedin className="icons" />
+        <a
+          aria-label="LinkedIn Propio"
+          href="https://github.com/EzequielG07"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub className="icons" />
+        </a>
+        <a
+          aria-label="LinkedIn Propio"
+          href="https://www.linkedin.com/in/ezequiel-guaymas-6bab56106/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedin className="icons" />
+        </a>
+        <a
+          aria-label="Chat on WhatsApp"
+          href="https://wa.me/5491161658521"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaWhatsapp className="icons" />
+        </a>
       </ContainerMedia>
     </>
   );

@@ -17,6 +17,9 @@
   font-size: 50px;
   color: white;
 }
+.icons:hover {
+  color: #16a085;
+}
 
 .foto {
   height: 20%;
@@ -33,6 +36,14 @@
   background-color: rgb(23, 32, 42, 0.9);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   height: 80px;
+  backdrop-filter: blur(10px);
+}
+
+.noColor {
+  background-color: rgb(255, 255, 255, 0);
+}
+.noColor span {
+  background-color: rgb(255, 255, 255, 0);
 }
 
 .itemsNav {

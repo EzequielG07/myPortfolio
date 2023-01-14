@@ -9,7 +9,7 @@ import {
 
 const Greeting = () => {
   return (
-    <ContainerGreetings>
+    <ContainerGreetings id="init">
       <Greetings>Hola, mi nombre es:</Greetings>
       <MyName>Ezequiel Guaymas</MyName>
       <MyDegree>Fronted Developer</MyDegree>

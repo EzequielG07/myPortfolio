@@ -10,13 +10,16 @@ import {
   List,
   ListItem,
   Description,
+  Span,
 } from "./styledComponents";
 
 const Projects = () => {
   return (
     <>
       <ContainerProjects id="projects">
-        <Subtitle>My projects i´ve built</Subtitle>
+        <Subtitle>
+          <Span>03. </Span> My projects i´ve built
+        </Subtitle>
 
         <ProjectInfo>
           <Screenshot

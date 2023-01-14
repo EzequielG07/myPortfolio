@@ -5,6 +5,7 @@ import {
   ProfilePicture,
   Text,
   Subtitle,
+  Span,
 } from "./styledComponents";
 
 const AboutMe = () => {
@@ -15,7 +16,9 @@ const AboutMe = () => {
         <h2>Matias Guaymas</h2>
         <h3>Front End Developer</h3> */}
         <ContainerInfo>
-          <Subtitle>About Me</Subtitle>
+          <Subtitle>
+            <Span>01. </Span> About Me
+          </Subtitle>
           <Text>
             Hi! my name is Ezequiel, i'm from Buenos Aires, Argentina. I´ve
             started studied about web development on my own , until I decided to
