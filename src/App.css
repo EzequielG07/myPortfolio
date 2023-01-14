@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@0,400;0,500;1,500&family=Special+Elite&display=swap");
+
 * {
   background-color: #17202a;
 }
@@ -30,6 +32,7 @@
 .colorNav {
   background-color: rgb(23, 32, 42, 0.9);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  height: 80px;
 }
 
 .itemsNav {
@@ -39,6 +42,7 @@
 .itemsNav a {
   text-decoration: none;
   color: white;
+  font-family: "Roboto", sans-serif;
 }
 
 .itemsNav a:hover {

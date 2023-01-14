@@ -6,6 +6,7 @@ import {
   Subtitle,
   Icons,
   Skill,
+  ListSkills,
 } from "./styledComponents";
 
 const Experience = () => {
@@ -17,7 +18,7 @@ const Experience = () => {
           <Text>
             Here are a few technologies I've been working with recently:
           </Text>
-          <ul>
+          <ListSkills>
             <Skill>
               <Icons
                 src="https://res.cloudinary.com/duniuldn7/image/upload/v1673394961/portfolio/js_zi5po9.png"
@@ -81,7 +82,7 @@ const Experience = () => {
               />
               Git
             </Skill>
-          </ul>
+          </ListSkills>
         </ContainerInfo>
       </Container>
     </>

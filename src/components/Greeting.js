@@ -1,6 +1,6 @@
 import "../App.css";
 import {
-  ContainerProjects,
+  ContainerGreetings,
   Text,
   Greetings,
   MyName,
@@ -9,7 +9,7 @@ import {
 
 const Greeting = () => {
   return (
-    <ContainerProjects>
+    <ContainerGreetings>
       <Greetings>Hola, mi nombre es:</Greetings>
       <MyName>Ezequiel Guaymas</MyName>
       <MyDegree>Fronted Developer</MyDegree>
@@ -18,7 +18,7 @@ const Greeting = () => {
         designing) exceptional digital experiences. Currently, I'm focused on
         building accessible, human-centered products at Upstatement.
       </Text>
-    </ContainerProjects>
+    </ContainerGreetings>
   );
 };
 

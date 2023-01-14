@@ -2,13 +2,17 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "../App.css";
+import { Logo } from "./styledComponents";
 
 const CustomNavbar = () => {
   return (
     <Navbar className="colorNav" expand="lg" sticky="top">
       <Container>
-        <Navbar.Brand className="initials" href="#home">
-          EG
+        <Navbar.Brand href="#home">
+          <Logo
+            src="https://res.cloudinary.com/duniuldn7/image/upload/v1673662083/portfolio/Icono_tcxlaa.png"
+            alt="Logo con iniciales"
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">

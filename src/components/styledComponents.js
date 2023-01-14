@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import "../App.css";
 
 export const Container = styled.div`
   margin: 0 auto;
@@ -18,6 +19,8 @@ export const ContainerInfo = styled.div`
 
 export const Text = styled.p`
   color: #b3b3b3;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
 `;
 
 export const ProfilePicture = styled.img`
@@ -40,6 +43,8 @@ export const Subtitle = styled.h2`
   /* background-color: pink; */
   display: inline-block;
   position: relative;
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
   &::after {
     position: absolute;
     content: " ";
@@ -61,6 +66,12 @@ export const Icons = styled.img`
 export const Skill = styled.li`
   color: white;
   margin: 10px 0;
+`;
+
+export const ListSkills = styled.ul`
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 `;
 
 //Projects-----------------------------------------------
@@ -121,10 +132,13 @@ export const Description = styled.p`
     rgba(255, 255, 255, 0.3) 0px 3px 7px -3px;
   padding: 5px;
   border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
 `;
 
 export const TitleProj = styled.h3`
   color: #16a085;
+  font-family: "Oswald", sans-serif;
 `;
 
 //Contact Me-------------------------------------------
@@ -143,12 +157,40 @@ export const ButtonContact = styled.button`
 //Greeting --------------------------------------------
 export const Greetings = styled.p`
   color: #16a085;
+  font-size: 1.5em;
+  font-family: "Oswald", sans-serif;
 `;
 
 export const MyName = styled.h1`
   color: white;
+  font-family: "Roboto Slab", serif;
+  font-size: 6em;
 `;
 
 export const MyDegree = styled.h2`
   color: grey;
+  font-family: "Roboto Slab", serif;
+  font-size: 5em;
+`;
+
+export const ContainerGreetings = styled(Container)`
+  display: flex;
+  flex-direction: column;
+  margin: 5% auto;
+`;
+
+export const Logo = styled.img`
+  height: 15%;
+  width: 15%;
+`;
+
+//social media
+export const ContainerMedia = styled.div`
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  /* position: -webkit-sticky; */
+  bottom: 0;
+  position: fixed;
+  left: 1.5rem;
 `;
