@@ -1,4 +1,6 @@
+import React, { useState } from "react";
 import "../App.css";
+import { Form } from "./Form";
 import {
   Container,
   ContainerInfo,
@@ -9,6 +11,11 @@ import {
 } from "./styledComponents";
 
 const ContactMe = () => {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
     <>
       <Container id="contactMe">
@@ -20,9 +27,10 @@ const ContactMe = () => {
             My inbox is always open. Whether you have a question or just want to
             say hi, I’ll try my best to get back to you!
           </Text>
-          <ButtonContact>Get in touch</ButtonContact>
+          <ButtonContact onClick={handleShow}>Get in touch</ButtonContact>
         </ContainerInfo>
       </Container>
+      <Form show={show} handleClose={handleClose} />
     </>
   );
 };

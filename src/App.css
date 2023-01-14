@@ -65,3 +65,9 @@
   background-color: #16a085;
   text-decoration: none;
 }
+
+.modalColor {
+  background-color: #17202a;
+  color: aliceblue;
+  border: solid #16a085 2px;
+}

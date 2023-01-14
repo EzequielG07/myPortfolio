@@ -221,3 +221,39 @@ export const Span = styled.span`
   color: #16a085;
   font-weight: 800;
 `;
+
+//contacUs
+export const ContainerForm = styled.form`
+  display: flex;
+  flex-direction: column;
+  background-color: #17202a;
+`;
+
+export const DataForm = styled.label`
+  background-color: #17202a;
+  color: white;
+`;
+
+export const InputForm = styled.input`
+  background-color: rgb(179, 182, 183);
+`;
+
+export const TextForm = styled.textarea`
+  background-color: rgb(179, 182, 183);
+  height: 10rem;
+`;
+
+export const ButtonSend = styled.input`
+  margin-top: 2rem;
+  background-color: #17202a;
+  color: #16a085;
+  border: 2px solid #16a085;
+  border-radius: 5px;
+  font-size: 1.2em;
+  height: 3rem;
+  &:hover {
+    transition: 0.5s;
+    background-color: #16a085;
+    color: #17202a;
+  }
+`;
