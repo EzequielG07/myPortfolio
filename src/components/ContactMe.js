@@ -21,13 +21,14 @@ const ContactMe = () => {
       <Container id="contactMe">
         <ContainerInfo>
           <Subtitle>
-            <Span>04. </Span> Contact Me 😁
+            <Span>04. </Span> Contactame
           </Subtitle>
           <Text>
-            My inbox is always open. Whether you have a question or just want to
-            say hi, I’ll try my best to get back to you!
+            Mi casilla de correo siempre se encuentra disponible. Cualquier
+            pregunta o interes que se presente, me esforzare para contestarle a
+            la brevedad.
           </Text>
-          <ButtonContact onClick={handleShow}>Get in touch</ButtonContact>
+          <ButtonContact onClick={handleShow}>Contactarse</ButtonContact>
         </ContainerInfo>
       </Container>
       <Form show={show} handleClose={handleClose} />

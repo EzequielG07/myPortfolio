@@ -18,7 +18,7 @@ const Projects = () => {
     <>
       <ContainerProjects id="projects">
         <Subtitle>
-          <Span>03. </Span> My projects i´ve built
+          <Span>03. </Span> Proyectos que he construido
         </Subtitle>
 
         <ProjectInfo>

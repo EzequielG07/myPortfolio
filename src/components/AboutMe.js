@@ -17,15 +17,16 @@ const AboutMe = () => {
         <h3>Front End Developer</h3> */}
         <ContainerInfo>
           <Subtitle>
-            <Span>01. </Span> About Me
+            <Span>01. </Span> Sobre mi
           </Subtitle>
           <Text>
-            Hi! my name is Ezequiel, i'm from Buenos Aires, Argentina. I´ve
-            started studied about web development on my own , until I decided to
-            complement my knowledge in the fullstack developer career at
-            CoderHouse. I´m a programmer looking for a work team to be able to
-            apply my knowledge, gain experience, learn much more and grow
-            professionally in this career that I am passionate about.
+            ¡Hola! mi nombre es Ezequiel, soy de Buenos Aires, Argentina. Empece
+            mis estudios sobre el desarrollo web por mi cuenta, hasta que decidi
+            complementar mis conocimientos en la carrera de Desarrollador Full
+            Stack en CoderHouse. Soy un programador que busca un ambiente de
+            trabajo para poder aplicar mis conocimientos, adquirir experiencia,
+            aprender mucho más y crecer profesionalmente en el mundo de la
+            programación.
           </Text>
         </ContainerInfo>
         <ProfilePicture

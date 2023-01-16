@@ -232,15 +232,20 @@ export const ContainerForm = styled.form`
 export const DataForm = styled.label`
   background-color: #17202a;
   color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 `;
 
 export const InputForm = styled.input`
   background-color: rgb(179, 182, 183);
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 `;
 
 export const TextForm = styled.textarea`
   background-color: rgb(179, 182, 183);
   height: 10rem;
+  font-family: "Poppins", sans-serif;
 `;
 
 export const ButtonSend = styled.input`
@@ -256,4 +261,14 @@ export const ButtonSend = styled.input`
     background-color: #16a085;
     color: #17202a;
   }
+`;
+
+//Language--------
+export const ContainerLanguages = styled.div`
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  bottom: 0;
+  position: fixed;
+  right: 1.5rem;
 `;

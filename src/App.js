@@ -6,22 +6,19 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import ContactMe from "./components/ContactMe";
 import MySocialMedia from "./components/MySocialMedia";
+import Language from "./components/Language";
 
 function App() {
   return (
     <>
       <CustomNavbar />
       <Greeting />
-      <hr />
       <AboutMe />
-      <hr />
       <Experience />
-      <hr />
       <Projects />
-      <hr />
       <ContactMe />
-      <hr />
       <MySocialMedia />
+      <Language />
     </>
   );
 }

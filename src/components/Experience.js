@@ -18,10 +18,11 @@ const Experience = () => {
       <Container id="experience">
         <ContainerInfo>
           <Subtitle>
-            <Span>02. </Span> Where i´ve worked
+            <Span>02. </Span> Experiencia
           </Subtitle>
           <Text>
-            Here are a few technologies I've been working with recently:
+            Estas son algunas de las tecnologías con las que he trabajado
+            recientemente:
           </Text>
           <ContainerSkill>
             <ListSkillsOne>

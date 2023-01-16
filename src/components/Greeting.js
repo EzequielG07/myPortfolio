@@ -5,6 +5,7 @@ import {
   Greetings,
   MyName,
   MyDegree,
+  ButtonContact,
 } from "./styledComponents";
 
 const Greeting = () => {
@@ -12,12 +13,15 @@ const Greeting = () => {
     <ContainerGreetings id="init">
       <Greetings>Hola, mi nombre es:</Greetings>
       <MyName>Ezequiel Guaymas</MyName>
-      <MyDegree>Fronted Developer</MyDegree>
+      <MyDegree>Desarrollador Front End</MyDegree>
       <Text>
-        I'm a software engineer specializing in building (and occasionally
-        designing) exceptional digital experiences. Currently, I'm focused on
-        building accessible, human-centered products at Upstatement.
+        Soy Desarrollador Web especializado en el Front. Actualmente estoy
+        enfocado en ampliar mis conocimientos constatemente en el mundo de la
+        programacion.
       </Text>
+      <a href="../CV Matias Ezequiel Guaymas.pdf" target="_blank">
+        <ButtonContact>Descargar CV</ButtonContact>
+      </a>
     </ContainerGreetings>
   );
 };
