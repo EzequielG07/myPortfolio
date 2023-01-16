@@ -68,7 +68,11 @@
 }
 
 .modalColor {
-  background-color: #17202a;
+  background-color: #17202a !important;
   color: aliceblue;
   border: solid #16a085 2px;
+}
+
+.modal-footer {
+  background-color: red;
 }

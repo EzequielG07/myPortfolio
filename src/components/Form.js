@@ -1,8 +1,8 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { ContactUs } from "./utils/ContactUs";
 import "../App.css";
+import CloseButton from "react-bootstrap/CloseButton";
 
 export const Form = ({ show, handleClose }) => {
   return (
@@ -10,15 +10,11 @@ export const Form = ({ show, handleClose }) => {
       <Modal show={show} onHide={handleClose}>
         <Modal.Header className="modalColor">
           <Modal.Title>Enviame un Correo</Modal.Title>
+          <CloseButton variant="white" />
         </Modal.Header>
         <Modal.Body className="modalColor">
           <ContactUs />
         </Modal.Body>
-        <Modal.Footer className="modalColor">
-          <Button variant="dark" onClick={handleClose}>
-            Cerrar
-          </Button>
-        </Modal.Footer>
       </Modal>
     </>
   );
