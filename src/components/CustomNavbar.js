@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "../App.css";
 import { Logo, Span } from "./styledComponents";
+import { FormattedMessage } from "react-intl";
 
 const CustomNavbar = () => {
   return (
@@ -21,16 +22,26 @@ const CustomNavbar = () => {
         >
           <Nav className="itemsNav noColor">
             <Nav.Link href="#aboutMe" className="mx-2 noColor">
-              <Span>01.</Span> Sobre mi
+              <Span>01.</Span>
+              <FormattedMessage id="menu.sobreMi" defaultMessage="SOBRE MI" />
             </Nav.Link>
             <Nav.Link href="#experience" className="mx-2 noColor">
-              <Span>02.</Span>Experiencia
+              <Span>02.</Span>
+              <FormattedMessage
+                id="menu.experiencia"
+                defaultMessage="EXPERIENCIA"
+              />
             </Nav.Link>
             <Nav.Link href="#projects" className="mx-2 noColor">
-              <Span>03.</Span>Proyectos
+              <Span>03.</Span>
+              <FormattedMessage
+                id="menu.proyectos"
+                defaultMessage="PROYECTOS"
+              />
             </Nav.Link>
             <Nav.Link href="#contactMe" className="mx-2 noColor">
-              <Span>04.</Span>Contacto
+              <Span>04.</Span>
+              <FormattedMessage id="menu.contacto" defaultMessage="CONTACTO" />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
