@@ -2,5 +2,28 @@
   "menu.sobreMi": "Sobre mi",
   "menu.experiencia": "Experiencia",
   "menu.proyectos": "Proyectos",
-  "menu.contacto": "Contacto"
+  "menu.contacto": "Contacto",
+
+  "saludo.hola": "Hola, mi nombre es:",
+  "saludo.profesion": "Desarrollador Front End",
+  "saludo.resumen": "Soy Desarrollador Web especializado en el Front. Actualmente estoy enfocado en ampliar mis conocimientos constatemente en el mundo de la programacion.",
+  "saludo.botonCv": "Descargar CV",
+
+  "sobremi.titulo": "Sobre mi",
+  "sobremi.texto": "¡Hola! mi nombre es Ezequiel, soy de Buenos Aires, Argentina. Empece mis estudios sobre el desarrollo web por mi cuenta, hasta que decidi complementar mis conocimientos en la carrera de Desarrollador Full Stack en CoderHouse. Soy un programador que busca un ambiente de trabajo para poder aplicar mis conocimientos, adquirir experiencia, aprender mucho más y crecer profesionalmente en el mundo de la programación.",
+
+  "experiencia.titulo": "Experiencia",
+  "experiencia.texto": "Estas son algunas de las tecnologías con las que he trabajado recientemente:",
+
+  "proyectos.titulo": "Proyectos que he construido",
+  "proyectos.react": "Mi proyecto en React",
+  "proyectos.descripcionReact": "Para certificar mis conocimientos aprendidos en React cree este proyecto que se basa en un simulador de e-commerce de Software Digital.",
+  "proyectos.js": "Mi proyecto para Javascript",
+  "proyectos.descripcionJs": "Para certificar los conocimientos aprendidos en Javascript cree este proyecto que se basa en un simulador de reserva de habitaciones donde un usuario puede elegir entre 3 tipos de habitaciones, todos con un costo diferente.",
+  "proyectos.dw": "Mi proyecto para Desarrollo Web",
+  "proyectos.descripcionDw": "Para certificar mis conocimietos en HTML5 y CSS3 cree este proyecto para mostrar el diseño responsivo de un sitio web dedicado a impresiones 3D.",
+
+  "contacto.titulo": "Contactame",
+  "contacto.texto": "Mi casilla de correo siempre se encuentra disponible. Cualquier pregunta o interes que se presente, me esforzare para contestarle a la brevedad.",
+  "contacto.boton": "Contactarse"
 }

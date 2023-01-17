@@ -11,6 +11,7 @@ import {
   ListSkillsTwo,
   Span,
 } from "./styledComponents";
+import { FormattedMessage } from "react-intl";
 
 const Experience = () => {
   return (
@@ -18,11 +19,17 @@ const Experience = () => {
       <Container id="experience">
         <ContainerInfo>
           <Subtitle>
-            <Span>02. </Span> Experiencia
+            <Span>02. </Span>{" "}
+            <FormattedMessage
+              id="experiencia.titulo"
+              defaultMessage="Error traslate"
+            />
           </Subtitle>
           <Text>
-            Estas son algunas de las tecnologías con las que he trabajado
-            recientemente:
+            <FormattedMessage
+              id="experiencia.texto"
+              defaultMessage="Error traslate"
+            />
           </Text>
           <ContainerSkill>
             <ListSkillsOne>

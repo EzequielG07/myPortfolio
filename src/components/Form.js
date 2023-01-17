@@ -10,7 +10,7 @@ export const Form = ({ show, handleClose }) => {
       <Modal show={show} onHide={handleClose}>
         <Modal.Header className="modalColor">
           <Modal.Title>Enviame un Correo</Modal.Title>
-          <CloseButton variant="white" />
+          <CloseButton variant="white" onClick={handleClose} />
         </Modal.Header>
         <Modal.Body className="modalColor">
           <ContactUs />

@@ -7,26 +7,25 @@ import {
   Subtitle,
   Span,
 } from "./styledComponents";
+import { FormattedMessage } from "react-intl";
 
 const AboutMe = () => {
   return (
     <>
       <Container id="aboutMe">
-        {/* <p>Hi, my name is</p>
-        <h2>Matias Guaymas</h2>
-        <h3>Front End Developer</h3> */}
         <ContainerInfo>
           <Subtitle>
-            <Span>01. </Span> Sobre mi
+            <Span>01. </Span>{" "}
+            <FormattedMessage
+              id="sobremi.titulo"
+              defaultMessage="Error Traslate"
+            />
           </Subtitle>
           <Text>
-            ¡Hola! mi nombre es Ezequiel, soy de Buenos Aires, Argentina. Empece
-            mis estudios sobre el desarrollo web por mi cuenta, hasta que decidi
-            complementar mis conocimientos en la carrera de Desarrollador Full
-            Stack en CoderHouse. Soy un programador que busca un ambiente de
-            trabajo para poder aplicar mis conocimientos, adquirir experiencia,
-            aprender mucho más y crecer profesionalmente en el mundo de la
-            programación.
+            <FormattedMessage
+              id="sobremi.texto"
+              defaultMessage="Error Traslate"
+            />
           </Text>
         </ContainerInfo>
         <ProfilePicture

@@ -12,13 +12,18 @@ import {
   Description,
   Span,
 } from "./styledComponents";
+import { FormattedMessage } from "react-intl";
 
 const Projects = () => {
   return (
     <>
       <ContainerProjects id="projects">
         <Subtitle>
-          <Span>03. </Span> Proyectos que he construido
+          <Span>03. </Span>{" "}
+          <FormattedMessage
+            id="proyectos.titulo"
+            defaultMessage="Error traslate"
+          />
         </Subtitle>
 
         <ProjectInfo>
@@ -28,10 +33,17 @@ const Projects = () => {
             className="foto"
           />
           <Info>
-            <TitleProj>Este es mi proyecto en React JS</TitleProj>
+            <TitleProj>
+              <FormattedMessage
+                id="proyectos.react"
+                defaultMessage="Error traslate"
+              />
+            </TitleProj>
             <Description>
-              Este proyecto consiste en un simulador de e-commerce de software
-              digital.
+              <FormattedMessage
+                id="proyectos.descripcionReact"
+                defaultMessage="Error traslate"
+              />
             </Description>
             <List>
               <ListItem>React Js</ListItem>
@@ -51,11 +63,17 @@ const Projects = () => {
           />
 
           <Info>
-            <TitleProj>Este es mi proyecto para JavaScript</TitleProj>
+            <TitleProj>
+              <FormattedMessage
+                id="proyectos.js"
+                defaultMessage="Error traslate"
+              />
+            </TitleProj>
             <Description>
-              Este proyecto consiste en un simulador de reserva de habitaciones
-              donde se puede elegir entre 3 tipos de habitaciones todos con un
-              costo diferente
+              <FormattedMessage
+                id="proyectos.descripcionJs"
+                defaultMessage="Error traslate"
+              />
             </Description>
             <List>
               <ListItem>JavaScript</ListItem>
@@ -74,10 +92,17 @@ const Projects = () => {
             className="foto"
           />
           <Info>
-            <TitleProj>Este es mi proyecto en Desarrollo Web</TitleProj>
+            <TitleProj>
+              <FormattedMessage
+                id="proyectos.dw"
+                defaultMessage="Error traslate"
+              />
+            </TitleProj>
             <Description>
-              Este proyecto consiste en un sitio web dedicado a la venta y
-              diseño de productos impresos en tecnología 3D
+              <FormattedMessage
+                id="proyectos.descripcionDw"
+                defaultMessage="Error traslate"
+              />
             </Description>
             <List>
               <ListItem>HTML5</ListItem>

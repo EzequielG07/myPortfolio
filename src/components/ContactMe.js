@@ -9,6 +9,7 @@ import {
   ButtonContact,
   Span,
 } from "./styledComponents";
+import { FormattedMessage } from "react-intl";
 
 const ContactMe = () => {
   const [show, setShow] = useState(false);
@@ -21,14 +22,24 @@ const ContactMe = () => {
       <Container id="contactMe">
         <ContainerInfo>
           <Subtitle>
-            <Span>04. </Span> Contactame
+            <Span>04. </Span>{" "}
+            <FormattedMessage
+              id="contacto.titulo"
+              defaultMessage="Error Traslate"
+            />
           </Subtitle>
           <Text>
-            Mi casilla de correo siempre se encuentra disponible. Cualquier
-            pregunta o interes que se presente, me esforzare para contestarle a
-            la brevedad.
+            <FormattedMessage
+              id="contacto.texto"
+              defaultMessage="Error Traslate"
+            />
           </Text>
-          <ButtonContact onClick={handleShow}>Contactarse</ButtonContact>
+          <ButtonContact onClick={handleShow}>
+            <FormattedMessage
+              id="contacto.boton"
+              defaultMessage="Error Traslate"
+            />
+          </ButtonContact>
         </ContainerInfo>
       </Container>
       <Form show={show} handleClose={handleClose} />
