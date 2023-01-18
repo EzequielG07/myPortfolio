@@ -45,17 +45,32 @@
 }
 
 .colorNav {
-  background-color: rgb(23, 32, 42, 0.9);
+  background-color: rgba(23, 32, 42, 0.9);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   height: 80px;
   backdrop-filter: blur(10px);
 }
 
 .noColor {
-  background-color: rgb(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
 }
+
 .noColor span {
-  background-color: rgb(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .colorNav {
+    background-color: rgb(23, 32, 42);
+  }
+  .noColor {
+    background-color: rgb(23, 32, 42);
+  }
+  .icons {
+    /* margin: 2px 0; */
+    font-size: 2rem;
+    color: #16a085;
+  }
 }
 
 .itemsNav {
@@ -81,9 +96,17 @@
 .modalColor {
   background-color: #17202a;
   color: aliceblue;
-  border: solid #16a085 2px;
+  border: solid rgb(22, 160, 133) 2px;
 }
 
 .brandLogo {
   width: 77px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2822, 160, 133, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.navbar-toggler {
+  border: solid rgb(22, 160, 133) 2px !important;
 }

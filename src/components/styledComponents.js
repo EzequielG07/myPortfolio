@@ -4,6 +4,7 @@ import "../App.css";
 export const Container = styled.div`
   margin: 0 auto;
   /* margin-bottom: 5rem; */
+  height: 100vh;
   width: 1200px;
   padding: 50px 100px;
   background-color: #17202a;
@@ -11,18 +12,30 @@ export const Container = styled.div`
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;
+  @media (min-width: 320px) and (max-width: 480px) {
+    width: 320px;
+    padding: 20px 20px;
+    flex-direction: column;
+    height: 75vh;
+    border: dashed yellow 1px;
+  }
 `;
 
 export const ContainerInfo = styled.div`
   text-align: justify;
   width: 500px;
+  @media (min-width: 320px) and (max-width: 480px) {
+    width: 300px;
+  }
 `;
 
 export const Text = styled.p`
   color: #b3b3b3;
   font-family: "Roboto", sans-serif;
   font-size: 1.2em;
+  @media (min-width: 320px) and (max-width: 480px) {
+    font-size: 1em;
+  }
 `;
 
 export const ProfilePicture = styled.img`
@@ -38,6 +51,10 @@ export const ProfilePicture = styled.img`
     transition: 1s;
     opacity: 1;
   }
+  @media (min-width: 320px) and (max-width: 480px) {
+    width: 200px;
+    height: 200px;
+  }
 `;
 
 export const Subtitle = styled.h2`
@@ -47,7 +64,7 @@ export const Subtitle = styled.h2`
   position: relative;
   font-family: "Roboto", sans-serif;
   font-size: 2em;
-  &::after {
+  /* &::after {
     position: absolute;
     content: " ";
     margin-left: 10px;
@@ -56,6 +73,9 @@ export const Subtitle = styled.h2`
     height: 2px;
     top: 0.6em;
     text-align: justify;
+  } */
+  @media (min-width: 320px) and (max-width: 480px) {
+    font-size: 1.5em;
   }
 `;
 //Experience
@@ -63,28 +83,45 @@ export const Icons = styled.img`
   height: 32px;
   width: 32px;
   margin-right: 10px;
+  @media (min-width: 320px) and (max-width: 480px) {
+    width: 24px;
+    height: 24px;
+  }
 `;
 
 export const ContainerSkill = styled.div`
   display: grid;
   grid-template-columns: 50% 50%;
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    border: dashed pink 1px;
+  }
 `;
 
 export const Skill = styled.li`
   color: white;
   margin: 10px 0;
+  @media (min-width: 320px) and (max-width: 480px) {
+    font-size: 0.6em;
+  }
 `;
 
 export const ListSkillsOne = styled.ul`
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  @media (min-width: 320px) and (max-width: 480px) {
+    border: dashed yellow 1px;
+  }
 `;
 
 export const ListSkillsTwo = styled.ul`
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  @media (min-width: 320px) and (max-width: 480px) {
+    border: dashed green 1px;
+  }
 `;
 //Projects-----------------------------------------------
 export const ContainerProjects = styled(Container)`
@@ -93,6 +130,10 @@ export const ContainerProjects = styled(Container)`
   justify-content: center;
   align-items: flex-start;
   height: 1400px;
+  @media (min-width: 320px) and (max-width: 480px) {
+    height: 1600px;
+    border: dashed pink 1px;
+  }
 `;
 
 export const ProjectInfo = styled.div`
@@ -101,10 +142,19 @@ export const ProjectInfo = styled.div`
   justify-content: space-between;
   margin: 30px 0;
   column-gap: 15px;
+  @media (min-width: 320px) and (max-width: 480px) {
+    flex-direction: column;
+    /* border: solid red 1px; */
+    justify-content: space-around;
+    row-gap: 10px;
+  }
 `;
 
 export const ProjectInfoReverse = styled(ProjectInfo)`
   flex-direction: row-reverse;
+  @media (min-width: 320px) and (max-width: 480px) {
+    flex-direction: column;
+  }
 `;
 
 export const Screenshot = styled.img`
@@ -116,12 +166,19 @@ export const Screenshot = styled.img`
     transition: 1s;
     opacity: 1;
   }
+  @media (min-width: 320px) and (max-width: 480px) {
+    width: 280px;
+    height: 150px;
+  }
 `;
 
 export const Info = styled.div`
   /* border: solid red 3px; */
   width: 40%;
   position: relative;
+  @media (min-width: 320px) and (max-width: 480px) {
+    width: 100%;
+  }
 `;
 
 export const List = styled.ul`
@@ -131,6 +188,10 @@ export const List = styled.ul`
   position: absolute;
   bottom: 2rem;
   padding: 0px;
+  @media (min-width: 320px) and (max-width: 480px) {
+    position: relative;
+    bottom: 0;
+  }
 `;
 
 export const ListRev = styled(List)`
@@ -142,6 +203,9 @@ export const ListItem = styled.li`
   font-size: 0.8em;
   opacity: 0.4;
   margin: 5px;
+  @media (min-width: 320px) and (max-width: 480px) {
+    font-size: 0.6em;
+  }
 `;
 
 export const LinkPages = styled.div`
@@ -149,6 +213,9 @@ export const LinkPages = styled.div`
   bottom: 0px;
   right: 0px;
   padding: 0px;
+  @media (min-width: 320px) and (max-width: 480px) {
+    position: relative;
+  }
 `;
 
 export const LinkPagesRev = styled(LinkPages)`
@@ -164,6 +231,10 @@ export const Description = styled.p`
   border-radius: 5px;
   font-family: "Roboto", sans-serif;
   font-size: 1.2em;
+  @media (min-width: 320px) and (max-width: 480px) {
+    font-size: 1em;
+    margin-bottom: 5px;
+  }
 `;
 
 export const TitleProj = styled.h3`
@@ -185,14 +256,28 @@ export const ButtonContact = styled.button`
     background-color: #16a085;
     color: #17202a;
   }
+  @media (min-width: 320px) and (max-width: 480px) {
+    font-size: 1em;
+    height: 2.5rem;
+  }
 `;
 
 //Greeting --------------------------------------------
+export const ContainerGreetings = styled(Container)`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+`;
+
 export const Greetings = styled.p`
   color: #16a085;
   font-size: 1.5em;
   font-family: "Oswald", sans-serif;
   margin: 0;
+  @media (min-width: 320px) and (max-width: 480px) {
+    font-size: 1em;
+  }
 `;
 
 export const MyName = styled.h1`
@@ -200,6 +285,9 @@ export const MyName = styled.h1`
   font-family: "Roboto Slab", serif;
   font-size: 6em;
   margin: 20px 0 5px 0;
+  @media (min-width: 320px) and (max-width: 480px) {
+    font-size: 2em;
+  }
 `;
 
 export const MyDegree = styled.h2`
@@ -207,13 +295,9 @@ export const MyDegree = styled.h2`
   font-family: "Roboto Slab", serif;
   font-size: 5em;
   margin-bottom: 15px;
-`;
-
-export const ContainerGreetings = styled(Container)`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+  @media (min-width: 320px) and (max-width: 480px) {
+    font-size: 1.5em;
+  }
 `;
 
 export const Logo = styled.img`
@@ -230,6 +314,9 @@ export const ContainerMedia = styled.div`
   bottom: 0;
   position: fixed;
   left: 1.5rem;
+  @media (min-width: 320px) and (max-width: 480px) {
+    flex-direction: row;
+  }
 `;
 
 //navbar-----
@@ -287,4 +374,7 @@ export const ContainerLanguages = styled.div`
   bottom: 0;
   position: fixed;
   right: 1.5rem;
+  @media (min-width: 320px) and (max-width: 480px) {
+    flex-direction: row;
+  }
 `;
