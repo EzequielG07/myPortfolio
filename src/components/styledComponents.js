@@ -108,8 +108,8 @@ export const ProjectInfoReverse = styled(ProjectInfo)`
 `;
 
 export const Screenshot = styled.img`
-  height: 100%;
-  width: 60%;
+  height: 322px;
+  width: 600px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   opacity: 0.3;
   &:hover {
@@ -129,8 +129,12 @@ export const List = styled.ul`
   flex-direction: row;
   list-style: none;
   position: absolute;
-  bottom: 0px;
+  bottom: 2rem;
   padding: 0px;
+`;
+
+export const ListRev = styled(List)`
+  right: 0px;
 `;
 
 export const ListItem = styled.li`
@@ -138,6 +142,17 @@ export const ListItem = styled.li`
   font-size: 0.8em;
   opacity: 0.4;
   margin: 5px;
+`;
+
+export const LinkPages = styled.div`
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding: 0px;
+`;
+
+export const LinkPagesRev = styled(LinkPages)`
+  left: 0px;
 `;
 
 export const Description = styled.p`
@@ -160,6 +175,7 @@ export const TitleProj = styled.h3`
 export const ButtonContact = styled.button`
   background-color: #17202a;
   color: #16a085;
+  margin: 2px 0;
   border: 2px solid #16a085;
   border-radius: 5px;
   font-size: 1.2em;
@@ -202,7 +218,7 @@ export const ContainerGreetings = styled(Container)`
 
 export const Logo = styled.img`
   height: 15%;
-  width: 15%;
+  width: 100%;
 `;
 
 //social media

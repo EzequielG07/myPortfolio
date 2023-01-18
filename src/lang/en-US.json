@@ -6,24 +6,24 @@
 
   "saludo.hola": "Hi, my name is:",
   "saludo.profesion": "Front End Developer",
-  "saludo.resumen": "I´m a Web Developer specialize in Front. Currently i´m focuse in expand my knowledge constantly in the programming world.",
+  "saludo.resumen": "I'm a Web Developer specialized in Front. Currently I'm focused in expanding my knowledge constantly in the programming world.",
   "saludo.botonCv": "Download CV",
 
   "sobremi.titulo": "About me",
-  "sobremi.texto": "Hi! my name is Ezequiel, i'm from Buenos Aires, Argentina. I´ve started studied about web development on my own , until I decided to complement my knowledge in the fullstack developer career at CoderHouse. I´m a programmer looking a work environment where i able to apply my knowledge, gain experience, learn much more and grow professionally in this career.",
+  "sobremi.texto": "Hi! my name is Ezequiel, I'm from Buenos Aires, Argentina. At the beggining I've studied about web development on my own , until I decided to complement my knowledge in the Full Stack Developer career at CoderHouse. I'm a programmer looking for a work environment where I could apply my knowledge, gain experience, learn much more and grow professionally in this career.",
 
   "experiencia.titulo": "Experience",
   "experiencia.texto": "Here are a few technologies I've been working with recently:",
 
-  "proyectos.titulo": "Projects I´ve built",
+  "proyectos.titulo": "Projects I've built",
   "proyectos.react": "My React project",
-  "proyectos.descripcionReact": "To certify my knowledge in React I´ve built this project based in an Digital Softwate e-commerce simulator.",
+  "proyectos.descripcionReact": "To certify my knowledge in React I've built this project based in a Digital Softwate e-commerce simulator.",
   "proyectos.js": "My Javascript project",
-  "proyectos.descripcionJs": "To certify my knowledge in Javascript I´ve built this project based in a room reservation simulator where an user can choose between 3 types of room, all of them with a different cost.",
+  "proyectos.descripcionJs": "To certify my knowledge in Javascript I've built this project based in a room reservation simulator where an user can choose between 3 types of rooms, all of them with a different cost.",
   "proyectos.dw": "My Web Development project",
-  "proyectos.descripcionDw": "To certify my knowledge in HTML5 and CSS3 I´ve built this project to show the responsive desing of a website dedicated to 3D printing.",
+  "proyectos.descripcionDw": "To certify my knowledge in HTML5 and CSS3 I've built this project to show the responsive desing of a website dedicated to 3D printing.",
 
   "contacto.titulo": "Contact Me",
-  "contacto.texto": "My inbox is always open. Any question or interest show up, I’ll try my best to answer you as soon as possible.",
+  "contacto.texto": "My inbox is always opened. If you have a quiestion or interest, I’ll try my best to answer you as soon as possible.",
   "contacto.boton": "Get in touch"
 }

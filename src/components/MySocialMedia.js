@@ -7,7 +7,7 @@ const MySocialMedia = () => {
     <>
       <ContainerMedia>
         <a
-          aria-label="LinkedIn Propio"
+          aria-label="Github Propio"
           href="https://github.com/EzequielG07"
           target="_blank"
           rel="noopener noreferrer"

@@ -9,7 +9,7 @@ const CustomNavbar = () => {
   return (
     <Navbar className="colorNav" expand="lg" sticky="top">
       <Container fluid className="mx-3 noColor">
-        <Navbar.Brand href="#init" className="noColor">
+        <Navbar.Brand href="#init" className="noColor brandLogo">
           <Logo
             src="https://res.cloudinary.com/duniuldn7/image/upload/v1673662083/portfolio/Icono_tcxlaa.png"
             alt="Logo con iniciales"
@@ -32,7 +32,7 @@ const CustomNavbar = () => {
                 defaultMessage="EXPERIENCIA"
               />
             </Nav.Link>
-            <Nav.Link href="#projects" className="mx-2 noColor">
+            <Nav.Link href="#projects" className="mx-2 noColor ">
               <Span>03.</Span>
               <FormattedMessage
                 id="menu.proyectos"
