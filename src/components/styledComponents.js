@@ -3,7 +3,7 @@ import "../App.css";
 
 export const Container = styled.div`
   margin: 0 auto;
-  /* margin-bottom: 5rem; */
+  margin-bottom: 5rem;
   height: 100vh;
   width: 1200px;
   padding: 50px 100px;
@@ -16,7 +16,7 @@ export const Container = styled.div`
     width: 320px;
     padding: 20px 20px;
     flex-direction: column;
-    height: 75vh;
+    height: 100vh;
   }
 `;
 
@@ -122,7 +122,7 @@ export const ContainerProjects = styled(Container)`
   align-items: flex-start;
   height: 1400px;
   @media (min-width: 320px) and (max-width: 768px) {
-    height: 1600px;
+    height: 1700px;
   }
 `;
 
