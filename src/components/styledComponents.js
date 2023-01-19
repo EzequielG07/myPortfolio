@@ -12,7 +12,7 @@ export const Container = styled.div`
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 768px) {
     width: 320px;
     padding: 20px 20px;
     flex-direction: column;
@@ -23,7 +23,7 @@ export const Container = styled.div`
 export const ContainerInfo = styled.div`
   text-align: justify;
   width: 500px;
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 768px) {
     width: 300px;
   }
 `;
@@ -32,7 +32,7 @@ export const Text = styled.p`
   color: #b3b3b3;
   font-family: "Roboto", sans-serif;
   font-size: 1.2em;
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 768px) {
     font-size: 1em;
   }
 `;
@@ -50,7 +50,7 @@ export const ProfilePicture = styled.img`
     transition: 1s;
     opacity: 1;
   }
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 768px) {
     width: 200px;
     height: 200px;
   }
@@ -73,7 +73,7 @@ export const Subtitle = styled.h2`
     top: 0.6em;
     text-align: justify;
   } */
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 768px) {
     font-size: 1.5em;
   }
 `;
@@ -82,7 +82,7 @@ export const Icons = styled.img`
   height: 32px;
   width: 32px;
   margin-right: 10px;
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 768px) {
     width: 24px;
     height: 24px;
   }
@@ -96,7 +96,7 @@ export const ContainerSkill = styled.div`
 export const Skill = styled.li`
   color: white;
   margin: 10px 0;
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 768px) {
     font-size: 0.6em;
   }
 `;
@@ -111,7 +111,7 @@ export const ListSkillsTwo = styled.ul`
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 768px) {
   }
 `;
 //Projects-----------------------------------------------
@@ -121,7 +121,7 @@ export const ContainerProjects = styled(Container)`
   justify-content: center;
   align-items: flex-start;
   height: 1400px;
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 768px) {
     height: 1600px;
   }
 `;
@@ -132,7 +132,7 @@ export const ProjectInfo = styled.div`
   justify-content: space-between;
   margin: 30px 0;
   column-gap: 15px;
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 768px) {
     flex-direction: column;
     justify-content: space-around;
     row-gap: 10px;
@@ -141,7 +141,7 @@ export const ProjectInfo = styled.div`
 
 export const ProjectInfoReverse = styled(ProjectInfo)`
   flex-direction: row-reverse;
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 768px) {
     flex-direction: column;
   }
 `;
@@ -155,7 +155,7 @@ export const Screenshot = styled.img`
     transition: 1s;
     opacity: 1;
   }
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 768px) {
     width: 280px;
     height: 150px;
   }
@@ -164,7 +164,7 @@ export const Screenshot = styled.img`
 export const Info = styled.div`
   width: 40%;
   position: relative;
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 768px) {
     width: 100%;
   }
 `;
@@ -176,7 +176,7 @@ export const List = styled.ul`
   position: absolute;
   bottom: 2rem;
   padding: 0px;
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 768px) {
     position: relative;
     bottom: 0;
   }
@@ -191,7 +191,7 @@ export const ListItem = styled.li`
   font-size: 0.8em;
   opacity: 0.4;
   margin: 5px;
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 768px) {
     font-size: 0.6em;
   }
 `;
@@ -201,7 +201,7 @@ export const LinkPages = styled.div`
   bottom: 0px;
   right: 0px;
   padding: 0px;
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 768px) {
     position: relative;
   }
 `;
@@ -219,7 +219,7 @@ export const Description = styled.p`
   border-radius: 5px;
   font-family: "Roboto", sans-serif;
   font-size: 1.2em;
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 768px) {
     font-size: 1em;
     margin-bottom: 5px;
   }
@@ -244,7 +244,7 @@ export const ButtonContact = styled.button`
     background-color: #16a085;
     color: #17202a;
   }
-  @media (min-width: 390px) and (max-width: 480px) {
+  @media (min-width: 390px) and (max-width: 768px) {
     font-size: 0.8em;
     height: 2rem;
   }
@@ -268,7 +268,7 @@ export const Greetings = styled.p`
   font-size: 1.5em;
   font-family: "Oswald", sans-serif;
   margin: 0;
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 768px) {
     font-size: 1em;
   }
 `;
@@ -278,7 +278,7 @@ export const MyName = styled.h1`
   font-family: "Roboto Slab", serif;
   font-size: 6em;
   margin: 20px 0 5px 0;
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 768px) {
     font-size: 2em;
   }
 `;
@@ -288,7 +288,7 @@ export const MyDegree = styled.h2`
   font-family: "Roboto Slab", serif;
   font-size: 5em;
   margin-bottom: 15px;
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 768px) {
     font-size: 1.5em;
   }
 `;
@@ -307,7 +307,7 @@ export const ContainerMedia = styled.div`
   bottom: 0;
   position: fixed;
   left: 1.5rem;
-  @media (min-width: 390px) and (max-width: 480px) {
+  @media (min-width: 390px) and (max-width: 768px) {
     left: 0.1rem;
   }
   @media (min-width: 320px) and (max-width: 389px) {
@@ -372,7 +372,7 @@ export const ContainerLanguages = styled.div`
   bottom: 0;
   position: fixed;
   right: 1.5rem;
-  @media (min-width: 390px) and (max-width: 480px) {
+  @media (min-width: 390px) and (max-width: 768px) {
     right: 0.1rem;
   }
   @media (min-width: 320px) and (max-width: 389px) {
