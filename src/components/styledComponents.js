@@ -17,7 +17,6 @@ export const Container = styled.div`
     padding: 20px 20px;
     flex-direction: column;
     height: 75vh;
-    border: dashed yellow 1px;
   }
 `;
 
@@ -92,10 +91,6 @@ export const Icons = styled.img`
 export const ContainerSkill = styled.div`
   display: grid;
   grid-template-columns: 50% 50%;
-
-  @media (min-width: 320px) and (max-width: 480px) {
-    border: dashed pink 1px;
-  }
 `;
 
 export const Skill = styled.li`
@@ -110,9 +105,6 @@ export const ListSkillsOne = styled.ul`
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  @media (min-width: 320px) and (max-width: 480px) {
-    border: dashed yellow 1px;
-  }
 `;
 
 export const ListSkillsTwo = styled.ul`
@@ -120,7 +112,6 @@ export const ListSkillsTwo = styled.ul`
   flex-direction: column;
   flex-wrap: wrap;
   @media (min-width: 320px) and (max-width: 480px) {
-    border: dashed green 1px;
   }
 `;
 //Projects-----------------------------------------------
@@ -132,7 +123,6 @@ export const ContainerProjects = styled(Container)`
   height: 1400px;
   @media (min-width: 320px) and (max-width: 480px) {
     height: 1600px;
-    border: dashed pink 1px;
   }
 `;
 
@@ -144,7 +134,6 @@ export const ProjectInfo = styled.div`
   column-gap: 15px;
   @media (min-width: 320px) and (max-width: 480px) {
     flex-direction: column;
-    /* border: solid red 1px; */
     justify-content: space-around;
     row-gap: 10px;
   }
@@ -173,7 +162,6 @@ export const Screenshot = styled.img`
 `;
 
 export const Info = styled.div`
-  /* border: solid red 3px; */
   width: 40%;
   position: relative;
   @media (min-width: 320px) and (max-width: 480px) {
@@ -256,9 +244,14 @@ export const ButtonContact = styled.button`
     background-color: #16a085;
     color: #17202a;
   }
-  @media (min-width: 320px) and (max-width: 480px) {
-    font-size: 1em;
-    height: 2.5rem;
+  @media (min-width: 390px) and (max-width: 480px) {
+    font-size: 0.8em;
+    height: 2rem;
+  }
+  @media (min-width: 320px) and (max-width: 389px) {
+    margin: 0 2px;
+    font-size: 0.8em;
+    height: 2rem;
   }
 `;
 
@@ -314,8 +307,13 @@ export const ContainerMedia = styled.div`
   bottom: 0;
   position: fixed;
   left: 1.5rem;
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 390px) and (max-width: 480px) {
+    left: 0.1rem;
+  }
+  @media (min-width: 320px) and (max-width: 389px) {
+    left: 0.1rem;
     flex-direction: row;
+    right: 61.344px;
   }
 `;
 
@@ -374,7 +372,11 @@ export const ContainerLanguages = styled.div`
   bottom: 0;
   position: fixed;
   right: 1.5rem;
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 390px) and (max-width: 480px) {
+    right: 0.1rem;
+  }
+  @media (min-width: 320px) and (max-width: 389px) {
+    right: 0.1rem;
     flex-direction: row;
   }
 `;

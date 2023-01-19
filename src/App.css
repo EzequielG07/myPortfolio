@@ -59,7 +59,7 @@
   background-color: rgba(255, 255, 255, 0);
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 390px) and (max-width: 480px) {
   .colorNav {
     background-color: rgb(23, 32, 42);
   }
@@ -67,7 +67,19 @@
     background-color: rgb(23, 32, 42);
   }
   .icons {
-    /* margin: 2px 0; */
+    font-size: 2rem;
+    color: #16a085;
+  }
+}
+@media (min-width: 320px) and (max-width: 389px) {
+  .colorNav {
+    background-color: rgb(23, 32, 42);
+  }
+  .noColor {
+    background-color: rgb(23, 32, 42);
+  }
+  .icons {
+    margin: 0 2px;
     font-size: 2rem;
     color: #16a085;
   }
