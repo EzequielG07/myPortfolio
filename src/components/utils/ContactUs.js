@@ -36,6 +36,8 @@ export const ContactUs = () => {
     <ContainerForm ref={form} onSubmit={sendEmail}>
       <DataForm>Nombre:</DataForm>
       <InputForm type="text" name="user_name" />
+      <DataForm>Teléfono:</DataForm>
+      <InputForm type="tel" name="user_tel" />
       <DataForm>Email:</DataForm>
       <InputForm type="email" name="user_email" />
       <DataForm>Mensaje:</DataForm>

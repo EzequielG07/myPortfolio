@@ -1,5 +1,5 @@
-import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import "../App.css";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { ContainerMedia } from "./styledComponents";
 
 const MySocialMedia = () => {

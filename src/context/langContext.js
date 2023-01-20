@@ -9,10 +9,6 @@ const LangProvider = ({ children }) => {
   const [mensajes, establecerMensajes] = useState(MensajesCastellano);
   const [locale, establecerLocale] = useState(`es-AR`);
 
-  //   const establecerLenguaje = (lenguaje) => {
-  //     console.log(`Cambiamos el lenguaje a`, lenguaje);
-  //   };
-
   const establecerLenguaje = (lenguaje) => {
     switch (lenguaje) {
       case `es-AR`:

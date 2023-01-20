@@ -58,21 +58,10 @@ export const ProfilePicture = styled.img`
 
 export const Subtitle = styled.h2`
   color: #dddddd;
-  /* background-color: pink; */
   display: inline-block;
   position: relative;
   font-family: "Roboto", sans-serif;
   font-size: 2em;
-  /* &::after {
-    position: absolute;
-    content: " ";
-    margin-left: 10px;
-    background-color: currentColor;
-    width: 200px;
-    height: 2px;
-    top: 0.6em;
-    text-align: justify;
-  } */
   @media (min-width: 320px) and (max-width: 768px) {
     font-size: 1.5em;
   }
@@ -303,7 +292,7 @@ export const ContainerMedia = styled.div`
   display: flex;
   flex-direction: column;
   position: sticky;
-  /* position: -webkit-sticky; */
+  position: -webkit-sticky;
   bottom: 0;
   position: fixed;
   left: 1.5rem;

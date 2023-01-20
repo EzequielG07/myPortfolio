@@ -1,8 +1,8 @@
 import React from "react";
 import Modal from "react-bootstrap/Modal";
+import CloseButton from "react-bootstrap/CloseButton";
 import { ContactUs } from "./utils/ContactUs";
 import "../App.css";
-import CloseButton from "react-bootstrap/CloseButton";
 
 export const Form = ({ show, handleClose }) => {
   return (
